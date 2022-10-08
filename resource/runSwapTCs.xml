@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Swap">
+    <test name="Run on Firefox">
+        <parameter name="browser" value="firefox"> </parameter>
+        <classes>
+            <class name ="com.remitano.swap.Your_Price"></class>
+        </classes>
+    </test>
+</suite>
