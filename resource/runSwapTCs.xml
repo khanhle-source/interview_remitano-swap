@@ -3,7 +3,17 @@
     <test name="Run on Firefox">
         <parameter name="browser" value="firefox"> </parameter>
         <classes>
+            <class name ="com.remitano.swap.Market_Price"></class>
             <class name ="com.remitano.swap.Your_Price"></class>
         </classes>
     </test>
+
+    <test name="Run on Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name ="com.remitano.swap.Market_Price"></class>
+            <class name ="com.remitano.swap.Your_Price"></class>
+        </classes>
+    </test>
+
 </suite>
